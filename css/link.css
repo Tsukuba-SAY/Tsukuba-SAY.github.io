@@ -1,0 +1,10 @@
+a:link { color: #eeC3DC } 
+a:visited { color: #eeC3DC }
+
+a:hover { color: #6BBED5 } 
+a:active { color: #6BBED5 } 
+
+#posmapplink{
+  font-size: 1.5em;
+  font-weight: 800;
+}

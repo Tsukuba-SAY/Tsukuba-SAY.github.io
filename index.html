@@ -1,126 +1,52 @@
 <!DOCTYPE HTML>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PosMApp 利用マニュアル</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="css/layouts/side-menu.css">
-    <link rel="stylesheet" href="css/link.css">
-    <!--<![endif]-->
-  </head>
-  <body>
-    <div id="layout">
-      <a href="#menu" id="menuLink" class="menu-link"><span></span></a>
-      <div id="menu">
-        <div class="pure-menu pure-menu-open">
-          <a class="pure-menu-heading" href="#" style="text-transform: none;">PosMApp</a>
-          <ul>
-            <li><a href="#intro">PosMAppとは</a></li>
-            <li><a href="#toppage">トップページ</a></li>
-            <li><a href="#timetable">タイムテーブル</a></li>
-            <li><a href="#venue">会場マップ</a></li>
-            <li><a href="#presenlist">発表リスト</a></li>
-            <li><a href="#postermap">ポスターマップ</a></li>
-          </ul>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PosMApp 利用マニュアル</title>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="css/layouts/side-menu.css"> 
+  <link rel="stylesheet" href="css/link.css">
+  <!--<![endif]-->
+</head>
+<body>
+  <div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link"><span></span></a>
+    <div id="menu">
+      <div class="pure-menu pure-menu-open">
+        <a class="pure-menu-heading" href="#" style="text-transform: none;">PosMApp</a>
+        <ul>
+          <li><a href="#intro">PosMAppとは</a></li>
+          <li><a href="#toppage">トップページ</a></li>
+          <li><a href="#timetable">タイムテーブル</a></li>
+          <li><a href="#venue">会場マップ</a></li>
+          <li><a href="#presenlist">発表リスト</a></li>
+          <li><a href="#postermap">ポスターマップ</a></li>
+        </ul>
       </div>
-      <div id="main">
-        <div class="header">
-          <h1>PosMApp</h1>
-          <h2>ポスターセッション向け<br>案内・投票支援アプリケーション</h2>
-          <h3><a id="posmapplink" href="http://posmapp.tk">posmapp.tk</a></h3>
-        </div>
-        <div class="content">
-          <h2 id="intro" class="content-subhead">PosMAppとは</h2>
-          <p>PosMAppは、ポスター展示を含むシンポジウムのための、スマートフォン用Webアプリケーションです。<br>
-          短めの口頭発表の後にポスター発表を行うスケジュールのシンポジウムを主に対象とし、<br>
-          タイムテーブル、発表リストからポスターマップ上での展示位置の表示、<br>
-          ポスターのチラシを手に展示会を回る場合と比べ、<br>
-          スマートフォンを片手に興味深い発表に目を付けて優先的にポスター訪問するなど、<br>
-          実りのあるポスター展示会を過ごすことができます。<br></p>
-          <ul>
-            <li>ポスターマップ</li>
-            <li>ポスター情報閲覧</li>
-            <li>ポスター一覧表示</li>
-            <li>ポスターへのブックマーク</li>
-            <li>ブックマークリスト表示</li>
-            <li>ポスタータイトル検索</li>
-            <li>イベントプログラム表示（タイムテーブル）</li>
-          </ul>
-          <h2 id="toppage" class="content-subhead">トップページ</h2>
-          <p><em><img src="img/deim2015_1.png" alt="ポスターマップ画面" /></em></p>
-          <ul>
-            <li>各機能のアイコンをタップすることで、各機能の画面へ遷移します</li>
-          </ul>
-          <h2 id="timetable" class="content-subhead">タイムテーブル</h2>
-          <p><em><img src="img/deim2015_2.png" alt="タイムテーブル" /></em></p>
-          <ul>
-            <li>このイベントのタイムスケジュールを表示します</li>
-            <li>上部の日付ボタンで日付を切り替えることができます</li>
-            <li>内容をタップすると、その発表リストのセッションまでジャンプします</li>
-          </ul>
-          <h2 id="venue" class="content-subhead">会場マップ</h2>
-          <p><em><img src="img/deim2015_3.png" alt="会場マップ" /></em></p>
-          <ul>
-            <li>このイベントが行われる会場のマップを表示します</li>
-          </ul>
-          <h2 id="presenlist" class="content-subhead">発表リスト</h2>
-          <p><em><img src="img/deim2015_4.png" alt="発表リスト" /></em></p>
-          <ul>
-            <li>すべての発表を一覧表示します。スクロール可能です</li>
-            <li>各発表の右端の&quot;＞&quot;ボタンまたはから、発表情報閲覧画面へ遷移可能です</li>
-            <li>マップアイコンが付いている発表は、ポスターがあります。</li>
-            <li>マップアイコンをタップすると、ポスターマップに遷移し、その発表のポスターの場所を示します。</li>
-            <li>各発表の星マークをタップすると、ブックマークに追加・削除可能です</li>
-            <li>左上にあるトグルボタンで、発表リストとブックマークリストを切り替えることができます</li>
-            <li>ブックマークリストには、ブックマークした発表の一覧が表示されます</li>
-            <li>右上のボタンをタップすると、検索のヒントが表示されます</li>
-          </ul>
-          <h2 id="postermap" class="content-subhead">ポスターマップ</h2>
-          <p><em><img src="img/deim2015_5.png" alt="ポスターマップ" /></em></p>
-          <ul>
-            <li>青く表示されている四角いアイコンをポスターアイコンと呼びます
-              <ul>
-                <li>各ポスターのブースを示しています</li>
-                <li>タップされるとポスターアイコンが緑色になり、右下に基本情報が表示されます</li>
-                <li>基本情報パネルをタップすると、基本情報が非表示になります</li>
-                <li>基本情報パネル上の星アイコンをタップすると、そのポスターがブックマークされます
-                  <ul>
-                    <li>ブックマークされたポスターには、マップ上で星マークが付きます</li>
-                    <li>ブックマークリストにも登録されます</li>
-                  </ul></li>
-                  <li>基本情報パネルの右端の&quot;＞&quot;ボタンをタップすると、そのポスターの詳細情報を表示します</li>
-                </ul></li>
-                <li>大きく色が付いている長方形の部分をタップエリアと呼びます
-                  <ul>
-                    <li>
-                      タップすると、エリアの部分が画面いっぱいになるようにズームインされます。
-                    </li>
-                    <li>その部分のポスターアイコンを大きく見ることができます。</li>
-                    <li>
-                      ズームインすると右上に戻るボタンが表示され、それをタップするとズームアウトされます
-                    </li>
-                  </ul></li>
-                  <li>マップの左右端にある矢印をタップすると、日付を切り替えることが出来ます
-                    <ul>
-                      <li>
-                        日付は、マップ上のアイコンが無い場所に表示されています
-                      </li>
-                    </ul></li>
-                    <li>マップ上をドラッグすると、マップを移動させることができます</li>
-                    <li>ドラッグした後、マップ上をダブルタップすると、マップを元の位置に戻すことができます</li>
-                  </ul>
-                  <hr />
-                  <p>ver 2.0 最終更新日 2014/01/27</p>
-                  
-                </div>
-              </div>
-            </div>
-            <script src="js/ui.js"></script>
-          </body>
-        </html>
+    </div>
+    <div id="main">
+      <div class="header">
+        <h1>PosMApp</h1>
+        <h2>ポスターセッション向け<br>案内・投票支援アプリケーション</h2>
+        <h3><a id="posmapplink" href="http://posmapp.tk">posmapp.tk</a></h3>
+      </div>
+      <div class="content">
+        <!-- pandoc -s [Markdown] -o [HTML] -->
+        <!-- h2要素にインデックスとなるidを付加する -->
+        <!-- 画像は適宜手動で追加 -->
+        <!-- Pandocによる自動生成コードここから -->
+
+
+
+        <!-- Pandocによる自動生成コードここまで -->
+      </div>
+    </div>
+  </div>
+  <script src="js/ui.js"></script>
+</body>
+</html>
